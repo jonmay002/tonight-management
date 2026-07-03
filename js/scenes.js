@@ -230,9 +230,9 @@
         const rad = (300 + i * 120) * DPR;
         const a = 0.2 - i * 0.035;
         const g = m.createRadialGradient(x, y, 0, x, y, rad);
-        g.addColorStop(0, "rgba(255,241,224," + a.toFixed(3) + ")");
-        g.addColorStop(0.35, "rgba(235,222,238," + (a * 0.5).toFixed(3) + ")");
-        g.addColorStop(1, "rgba(235,222,238,0)");
+        g.addColorStop(0, "rgba(243,242,248," + a.toFixed(3) + ")");
+        g.addColorStop(0.35, "rgba(232,230,240," + (a * 0.5).toFixed(3) + ")");
+        g.addColorStop(1, "rgba(232,230,240,0)");
         m.fillStyle = g;
         m.beginPath(); m.arc(x, y, rad, 0, TAU); m.fill();
       }
