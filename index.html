@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tonight Management</title>
+<meta name="description" content="Tonight Management is an agency built on the clearest view of the market that has ever existed. We find every opportunity and win the negotiation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=8">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='10' fill='%23b3a4e6'/%3E%3Ccircle cx='20' cy='13' r='9' fill='%2306070f'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===== Aurora (easter egg overlay) ===== -->
+<div class="aurora" aria-hidden="true"></div>
+
+<!-- ===== Grain ===== -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ===== Cursor glow ===== -->
+<div class="cursor-glow" aria-hidden="true"></div>
+
+<!-- ===== Navigation ===== -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#/" aria-label="Tonight Management home">
+    <span class="nav__wordmark">TONIGHT</span>
+  </a>
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#/about" data-route="about" class="nav__link"><span>About</span></a>
+    <a href="mailto:jon@tonightmanagement.com?subject=Tonight%20%E2%80%94%20Introduction" class="nav__link nav__link--contact"><span>Contact</span></a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ================= HOME ================= -->
+  <section class="page" data-page="home">
+    <div class="hero">
+      <canvas id="stars" class="hero__canvas" aria-hidden="true"></canvas>
+      <div class="hero__content">
+        <p class="hero__eyebrow reveal">Talent Group</p>
+        <h1 class="hero__title reveal">TONIGHT</h1>
+        <p class="hero__sub reveal">An agency built on the clearest view of the creator economy that has ever existed.</p>
+        <div class="hero__cta reveal">
+          <a class="btn btn--solid" href="#/about">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="page" data-page="about" hidden>
+    <div class="pagehead">
+      <div class="container container--narrow">
+        <p class="kicker reveal">About</p>
+        <h1 class="pagehead__title reveal">Built to <em>win deals.</em></h1>
+        <div class="pagehead__body reveal">
+          <p>The agencies of the last century were built on relationships. Tonight is built on the record: the fullest picture of what talent actually gets paid, deal by deal, market by market.</p>
+          <p>We work with two kinds of partners.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- For Talent -->
+    <section class="split">
+      <div class="split__art reveal">
+        <img src="img/purple-stage.jpg" alt="Stage lights over a concert crowd">
+      </div>
+      <div class="split__content">
+        <p class="kicker reveal">For Talent</p>
+        <h2 class="split__title reveal">Representation that leaves nothing on the table.</h2>
+        <ul class="split__list">
+          <li class="reveal"><strong>Know your number.</strong> Every offer is benchmarked against tens of thousands of comparable deals before we respond.</li>
+          <li class="reveal"><strong>Every room.</strong> Festivals, theaters, corporate stages, brand campaigns. Every plausible buyer gets worked.</li>
+          <li class="reveal"><strong>Full attention.</strong> A small roster means you are never the client an agent forgets to pitch.</li>
+        </ul>
+        <a class="btn btn--ghost reveal" href="mailto:jon@tonightmanagement.com?subject=Representation%20Inquiry">Request representation <span class="btn__arrow">→</span></a>
+      </div>
+    </section>
+
+    <!-- For Enterprises -->
+    <section class="split split--flip">
+      <div class="split__art reveal">
+        <img src="img/celebration.jpg" alt="Confetti falling over a celebrating crowd">
+      </div>
+      <div class="split__content">
+        <p class="kicker reveal">For Enterprises</p>
+        <h2 class="split__title reveal">The right talent, booked with certainty.</h2>
+        <ul class="split__list">
+          <li class="reveal"><strong>Cast on evidence.</strong> We know what talent draws and what it costs, across thousands of real engagements.</li>
+          <li class="reveal"><strong>Move fast.</strong> Shortlists in days, with honest availability and honest pricing.</li>
+          <li class="reveal"><strong>One contact.</strong> Contracts, logistics, and delivery, handled end to end.</li>
+        </ul>
+        <a class="btn btn--ghost reveal" href="mailto:jon@tonightmanagement.com?subject=Booking%20Inquiry">Book talent <span class="btn__arrow">→</span></a>
+      </div>
+    </section>
+  </section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <canvas id="constellation" class="footer__constellation" aria-hidden="true"></canvas>
+  <div class="container footer__grid">
+    <div class="footer__main">
+      <p class="kicker">Contact</p>
+      <a class="btn btn--solid footer__btn" href="mailto:jon@tonightmanagement.com?subject=Tonight%20%E2%80%94%20Introduction">Email us</a>
+    </div>
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="#/">Home</a>
+      <a href="#/about">About</a>
+    </nav>
+  </div>
+  <div class="container footer__base">
+    <span>© 2026 Tonight Management</span>
+  </div>
+</footer>
+
+<script src="js/scenes.js?v=8"></script>
+<script src="js/main.js?v=7"></script>
+</body>
+</html>
