@@ -322,11 +322,10 @@
       t += 0.016;
       ctx.clearRect(0, 0, w, h);
       if (milky) {
-        // fixed in place, turning like the night sky on a long exposure
+        // the galaxy holds perfectly still; only the stars twinkle over it
         const S = milky.width;
         ctx.save();
         ctx.translate(w / 2, h / 2);
-        ctx.rotate(t * 0.0035);
         ctx.drawImage(milky, -S / 2, -S / 2);
         ctx.restore();
       }
