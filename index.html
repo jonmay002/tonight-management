@@ -112,6 +112,14 @@
       .entry-title { font-size: 2.6rem; gap: 16px; }
       .entry-arrow { width: 40px; height: 40px; font-size: 1.1rem; }
     }
+    /* Mobile: center the two mission paragraphs */
+    @media (max-width: 767px) {
+      .about-grid .page-title.flex.second,
+      .about-grid .page-title.flex.third {
+        display: block;
+        text-align: center;
+      }
+    }
     @media (max-width: 767px) {
       .entry-grid, .entry-grid.right { grid-template-columns: 1fr; }
       .entry-media, .entry-grid.right .entry-media,
